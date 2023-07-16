@@ -1,108 +1,260 @@
-Country,Nationality,
-Afghanistan,Afghan,
-Algeria,Algerian,
-Angola,Angolan,
-Argentina,Argentine,
-Austria,Austrian,
-Australia,Australian,
-Bangladesh,Bangladeshi,
-Belarus,Belarusian,
-Belgium,Belgian,
-Bolivia,Bolivian,
-Bosnia and Herzegovina,Bosnian/Herzegovinian,
-Brazil,Brazilian,
-Britain,British,
-Bulgaria,Bulgarian,
-Cambodia,Cambodian,
-Cameroon,Cameroonian,
-Canada,Canadian,
-Central African Republic,Central African,
-Chad,Chadian,
-China,Chinese,
-Colombia,Colombian,
-Costa Rica,Costa Rican,
-Croatia,Croatian,
-the Czech Republic,Czech,
-Democratic Republic of the Congo,Congolese,
-Denmark,Danish,
-Ecuador,Ecuadorian,
-Egypt,Egyptian,
-El Salvador,Salvadoran,
-England,English,
-Estonia,Estonian,
-Ethiopia,Ethiopian,
-Finland,Finnish,
-France,French,
-Germany,German,
-Ghana,Ghanaian,
-Greece,Greek,
-Guatemala,Guatemalan,
-Holland,Dutch,
-Honduras,Honduran,
-Hungary,Hungarian,
-Iceland,Icelandic,
-India,Indian,
-Indonesia,Indonesian,
-Iran,Iranian,
-Iraq,Iraqi,
-Ireland,Irish,
-Israel,Israeli,
-Italy,Italian,
-Ivory Coast,Ivorian,
-Jamaica,Jamaican,
-Japan,Japanese,
-Jordan,Jordanian,
-Kazakhstan,Kazakh,
-Kenya,Kenyan,
-Laos,Lao,
-Latvia,Latvian,
-Libya,Libyan,
-Lithuania,Lithuanian,
-Madagascar,Malagasy,
-Malaysia,Malaysian,
-Mali,Malian,
-Mauritania,Mauritanian,
-Mexico,Mexican,
-Morocco,Moroccan,
-Namibia,Namibian,
-New Zealand,New Zealand,
-Nicaragua,Nicaraguan,
-Niger,Nigerien,
-Nigeria,Nigerian,
-Norway,Norwegian,
-Oman,Omani,
-Pakistan,Pakistani,
-Panama,Panamanian,
-Paraguay,Paraguayan,
-Peru,Peruvian,
-The Philippines,Philippine,
-Poland,Polish,
-Portugal,Portuguese,
-Republic of the Congo,Congolese,
-Romania,Romanian,
-Russia,Russian,
-Saudi Arabia,"Saudi, Saudi Arabian",
-Scotland,Scottish,
-Senegal,Senegalese,
-Serbia,Serbian,
-Singapore,Singaporean,
-Slovakia,Slovak,
-Somalia,Somalian,
-South Africa,South African,
-Spain,Spanish,
-Sudan,Sudanese,
-Sweden,Swedish,
-Switzerland,Swiss,
-Syria,Syrian,
-Thailand,Thai,
-Tunisia,Tunisian,
-Turkey,Turkish,
-Turkmenistan,Turkmen,
-Ukraine,Ukranian,
-The United Arab Emirates,Emirati,
-The United States,American,
-Uruguay,Uruguayan,
-Vietnam,Vietnamese,
-Wales,Welsh,
-Zambia,Zambian,
-Zimbabwe,Zimbabwean,
+Country,Nationality,emote_id
+Ascension Island,Ascension Islander,:flag_ac:
+Andorra,Andorran,:flag_ad:
+United Arab Emirates,Emirati,:flag_ae:
+Afghanistan,Afghan,:flag_af:
+Antigua & Barbuda,Antiguan and Barbudan,:flag_ag:
+Anguilla,Anguillan,:flag_ai:
+Albania,Albanian,:flag_al:
+Armenia,Armenian,:flag_am:
+Angola,Angolan,:flag_ao:
+Antarctica,---------------,:flag_aq:
+Argentina,Argentine,:flag_ar:
+American Samoa,American Samoan,:flag_as:
+Austria,Austrian,:flag_at:
+Australia,Australian,:flag_au:
+Aruba,Aruban,:flag_aw:
+Azerbaijan,Azerbaijani,:flag_az:
+Bosnia & Herzegovina,Bosnian and Herzegovinian,:flag_ba:
+Barbados,Barbadian,:flag_bb:
+Bangladesh,Bangladeshi,:flag_bd:
+Belgium,Belgian,:flag_be:
+Bulgaria,Bulgarian,:flag_bg:
+Bahrain,Bahraini,:flag_bh:
+Burundi,Burundian,:flag_bi:
+Benin,Beninese,:flag_bj:
+St. Barthélemy,French,:flag_bl:
+Bermuda,Bermudian,:flag_bm:
+Brunei,Bruneian,:flag_bn:
+Bolivia,Bolivian,:flag_bo:
+Caribbean Netherlands,Dutch,:flag_bq:
+Brazil,Brazilian,:flag_br:
+Bahamas,Bahamian,:flag_bs:
+Bhutan,Bhutanese,:flag_bt:
+Bouvet Island,---------------,:flag_bv:
+Botswana,Batswana,:flag_bw:
+Belarus,Belarusian,:flag_by:
+Belize,Belizean,:flag_bz:
+Canada,Canadian,:flag_ca:
+Cocos (Keeling) Islands,Australian,:flag_cc:
+Congo - Kinshasa,Congolese,:flag_cd:
+Central African Republic,Central African,:flag_cf:
+Congo - Brazzaville,Congolese,:flag_cg:
+Switzerland,Swiss,:flag_ch:
+Côte d’Ivoire,Ivorian,:flag_ci:
+Cook Islands,Cook Islander,:flag_ck:
+Chile,Chilean,:flag_cl:
+Cameroon,Cameroonian,:flag_cm:
+China,Chinese,:flag_cn:
+Colombia,Colombian,:flag_co:
+Clipperton Island,French,:flag_cp:
+Costa Rica,Costa Rican,:flag_cr:
+Cuba,Cuban,:flag_cu:
+Cape Verde,Cape Verdean,:flag_cv:
+Curaçao,Dutch,:flag_cw:
+Christmas Island,Australian,:flag_cx:
+Cyprus,Cypriot,:flag_cy:
+Czechia,Czech,:flag_cz:
+Germany,German,:flag_de:
+Diego Garcia,---------------,:flag_dg:
+Djibouti,Djiboutian,:flag_dj:
+Denmark,Danish,:flag_dk:
+Dominica,Dominican,:flag_dm:
+Dominican Republic,Dominican,:flag_do:
+Algeria,Algerian,:flag_dz:
+Ceuta & Melilla,Spanish,:flag_ea:
+Ecuador,Ecuadorian,:flag_ec:
+Estonia,Estonian,:flag_ee:
+Egypt,Egyptian,:flag_eg:
+Western Sahara,Sahrawi,:flag_eh:
+Eritrea,Eritrean,:flag_er:
+Spain,Spanish,:flag_es:
+Ethiopia,Ethiopian,:flag_et:
+European Union,European,:flag_eu:
+Finland,Finnish,:flag_fi:
+Fiji,Fijian,:flag_fj:
+Falkland Islands,Falkland Islander,:flag_fk:
+Micronesia,Micronesian,:flag_fm:
+Faroe Islands,Faroese,:flag_fo:
+France,French,:flag_fr:
+Gabon,Gabonese,:flag_ga:
+United Kingdom,British,:flag_gb:
+Grenada,Grenadian,:flag_gd:
+Georgia,Georgian,:flag_ge:
+French Guiana,French,:flag_gf:
+Guernsey,Channel Islander,:flag_gg:
+Ghana,Ghanaian,:flag_gh:
+Gibraltar,Gibraltarian,:flag_gi:
+Greenland,Greenlandic,:flag_gl:
+Gambia,Gambian,:flag_gm:
+Guinea,Guinean,:flag_gn:
+Guadeloupe,French,:flag_gp:
+Equatorial Guinea,Equatorial Guinean,:flag_gq:
+Greece,Greek,:flag_gr:
+South Georgia & South Sandwich Islands,British,:flag_gs:
+Guatemala,Guatemalan,:flag_gt:
+Guam,Guamanian,:flag_gu:
+Guinea-Bissau,Guinea-Bissauan,:flag_gw:
+Guyana,Guyanese,:flag_gy:
+Hong Kong SAR China,Chinese,:flag_hk:
+Heard & McDonald Islands,Australian,:flag_hm:
+Honduras,Honduran,:flag_hn:
+Croatia,Croatian,:flag_hr:
+Haiti,Haitian,:flag_ht:
+Hungary,Hungarian,:flag_hu:
+Canary Islands,Spanish,:flag_ic:
+Indonesia,Indonesian,:flag_id:
+Ireland,Irish,:flag_ie:
+Israel,Israeli,:flag_il:
+Isle of Man,Manx,:flag_im:
+India,Indian,:flag_in:
+British Indian Ocean Territory,British,:flag_io:
+Iraq,Iraqi,:flag_iq:
+Iran,Iranian,:flag_ir:
+Iceland,Icelandic,:flag_is:
+Italy,Italian,:flag_it:
+Jersey,Channel Islander,:flag_je:
+Jamaica,Jamaican,:flag_jm:
+Jordan,Jordanian,:flag_jo:
+Japan,Japanese,:flag_jp:
+Kenya,Kenyan,:flag_ke:
+Kyrgyzstan,Kyrgyzstani,:flag_kg:
+Cambodia,Cambodian,:flag_kh:
+Kiribati,I-Kiribati,:flag_ki:
+Comoros,Comorian,:flag_km:
+St. Kitts & Nevis,Kittitian and Nevisian,:flag_kn:
+North Korea,North Korean,:flag_kp:
+South Korea,South Korean,:flag_kr:
+Kuwait,Kuwaiti,:flag_kw:
+Cayman Islands,Caymanian,:flag_ky:
+Kazakhstan,Kazakhstani,:flag_kz:
+Laos,Lao,:flag_la:
+Lebanon,Lebanese,:flag_lb:
+St. Lucia,Saint Lucian,:flag_lc:
+Liechtenstein,Liechtensteiner,:flag_li:
+Sri Lanka,Sri Lankan,:flag_lk:
+Liberia,Liberian,:flag_lr:
+Lesotho,Lesothoan,:flag_ls:
+Lithuania,Lithuanian,:flag_lt:
+Luxembourg,Luxembourger,:flag_lu:
+Latvia,Latvian,:flag_lv:
+Libya,Libyan,:flag_ly:
+Morocco,Moroccan,:flag_ma:
+Monaco,Monegasque,:flag_mc:
+Moldova,Moldovan,:flag_md:
+Montenegro,Montenegrin,:flag_me:
+St. Martin,French,:flag_mf:
+Madagascar,Malagasy,:flag_mg:
+Marshall Islands,Marshallese,:flag_mh:
+North Macedonia,Macedonian,:flag_mk:
+Mali,Malian,:flag_ml:
+Myanmar (Burma),Burmese,:flag_mm:
+Mongolia,Mongolian,:flag_mn:
+Macao SAR China,Chinese,:flag_mo:
+Northern Mariana Islands,American,:flag_mp:
+Martinique,French,:flag_mq:
+Mauritania,Mauritanian,:flag_mr:
+Montserrat,Montserratian,:flag_ms:
+Malta,Maltese,:flag_mt:
+Mauritius,Mauritian,:flag_mu:
+Maldives,Maldivian,:flag_mv:
+Malawi,Malawian,:flag_mw:
+Mexico,Mexican,:flag_mx:
+Malaysia,Malaysian,:flag_my:
+Mozambique,Mozambican,:flag_mz:
+Namibia,Namibian,:flag_na:
+New Caledonia,French,:flag_nc:
+Niger,Nigerien,:flag_ne:
+Norfolk Island,Australian,:flag_nf:
+Nigeria,Nigerian,:flag_ng:
+Nicaragua,Nicaraguan,:flag_ni:
+Netherlands,Dutch,:flag_nl:
+Norway,Norwegian,:flag_no:
+Nepal,Nepali,:flag_np:
+Nauru,Nauruan,:flag_nr:
+Niue,Niuean,:flag_nu:
+New Zealand,New Zealander,:flag_nz:
+Oman,Omani,:flag_om:
+Panama,Panamanian,:flag_pa:
+Peru,Peruvian,:flag_pe:
+French Polynesia,French,:flag_pf:
+Papua New Guinea,Papua New Guinean,:flag_pg:
+Philippines,Filipino,:flag_ph:
+Pakistan,Pakistani,:flag_pk:
+Poland,Polish,:flag_pl:
+St. Pierre & Miquelon,French,:flag_pm:
+Pitcairn Islands,Pitcairn Islander,:flag_pn:
+Puerto Rico,American,:flag_pr:
+Palestinian Territories,Palestinian,:flag_ps:
+Portugal,Portuguese,:flag_pt:
+Palau,Palauan,:flag_pw:
+Paraguay,Paraguayan,:flag_py:
+Qatar,Qatari,:flag_qa:
+Réunion,French,:flag_re:
+Romania,Romanian,:flag_ro:
+Serbia,Serbian,:flag_rs:
+Russia,Russian,:flag_ru:
+Rwanda,Rwandan,:flag_rw:
+Saudi Arabia,Saudi Arabian,:flag_sa:
+Solomon Islands,Solomon Islander,:flag_sb:
+Seychelles,Seychellois,:flag_sc:
+Sudan,Sudanese,:flag_sd:
+Sweden,Swedish,:flag_se:
+Singapore,Singaporean,:flag_sg:
+St. Helena,British,:flag_sh:
+Slovenia,Slovenian,:flag_si:
+Svalbard & Jan Mayen,Norwegian,:flag_sj:
+Slovakia,Slovak,:flag_sk:
+Sierra Leone,Sierra Leonean,:flag_sl:
+San Marino,San Marinese,:flag_sm:
+Senegal,Senegalese,:flag_sn:
+Somalia,Somali,:flag_so:
+Suriname,Surinamese,:flag_sr:
+South Sudan,South Sudanese,:flag_ss:
+São Tomé & Príncipe,São Toméan,:flag_st:
+El Salvador,Salvadoran,:flag_sv:
+Sint Maarten,Dutch,:flag_sx:
+Syria,Syrian,:flag_sy:
+Eswatini,Swazi,:flag_sz:
+Tristan da Cunha,British,:flag_ta:
+Turks & Caicos Islands,British,:flag_tc:
+Chad,Chadian,:flag_td:
+French Southern Territories,French,:flag_tf:
+Togo,Togolese,:flag_tg:
+Thailand,Thai,:flag_th:
+Tajikistan,Tajikistani,:flag_tj:
+Tokelau,New Zealander,:flag_tk:
+Timor-Leste,East Timorese,:flag_tl:
+Turkmenistan,Turkmen,:flag_tm:
+Tunisia,Tunisian,:flag_tn:
+Tonga,Tongan,:flag_to:
+Turkey,Turkish,:flag_tr:
+Trinidad & Tobago,Trinidadian and Tobagonian,:flag_tt:
+Tuvalu,Tuvaluan,:flag_tv:
+Taiwan,Taiwanese,:flag_tw:
+Tanzania,Tanzanian,:flag_tz:
+Ukraine,Ukrainian,:flag_ua:
+Uganda,Ugandan,:flag_ug:
+U.S. Outlying Islands,American,:flag_um:
+United Nations,International,:united_nations:
+United States,American,:flag_us:
+Uruguay,Uruguayan,:flag_uy:
+Uzbekistan,Uzbekistani,:flag_uz:
+Vatican City,Vatican,:flag_va:
+St. Vincent & Grenadines,Vincentian,:flag_vc:
+Venezuela,Venezuelan,:flag_ve:
+British Virgin Islands,British,:flag_vg:
+U.S. Virgin Islands,American,:flag_vi:
+Vietnam,Vietnamese,:flag_vn:
+Vanuatu,Ni-Vanuatu,:flag_vu:
+Wallis & Futuna,French,:flag_wf:
+Samoa,Samoan,:flag_ws:
+Kosovo,Kosovar,:flag_xk:
+Yemen,Yemeni,:flag_ye:
+Mayotte,French,:flag_yt:
+South Africa,South African,:flag_za:
+Zambia,Zambian,:flag_zm:
+Zimbabwe,Zimbabwean,:flag_zw:
+England,English,:england:
+Scotland,Scottish,:scotland:
+Wales,Welsh,:wales:
