@@ -2,13 +2,15 @@ import discord
 import random
 import asyncio
 import os
+from datetime import timedelta
 from dotenv import load_dotenv
 load_dotenv()
 
 intents = discord.Intents.default()
 intents.message_content = True
-
 client = discord.Client(intents=intents)
+
+timeout_delta = timedelta(seconds=15)
 
 @client.event
 async def on_ready():
@@ -43,12 +45,14 @@ async def on_message(message):
             guess = await client.wait_for('message', check=is_correct, timeout=10.0)
         except asyncio.TimeoutError:
             return await message.channel.send(f'Sorry, you took too long it was {answer}.')
+        
         if random.randint(1,10) == 5:
             await message.channel.send(":wtf:")
         if str(guess.content) in answer_flag:
             await message.channel.send('You are right!')
         elif str(guess.content) in not_answer:
             await message.channel.send(f'Oops. It is actually {answer}.')
+            await message.author.timeout(timeout_delta, reason="too stupid")
 
 token = os.environ.get('TOKEN')   
 client.run(token)
