@@ -28,7 +28,7 @@ async def on_message(message):
         flag_id = ["indonesia", "Indonesia", "indonesian", "Indonesian"]
 
         answer = random.choice(['Poland', 'Indonesia'])
-        await message.channel.send(f"{mention} is this Poland or Indonesia")
+        await message.channel.send(f"{mention} is this Poland or Indonesia (10s)")
         if answer == 'Poland':  #send the flag as an emote based of the random choice
             await message.channel.send(':flag_pl:')
             answer_flag = flag_pl
@@ -44,6 +44,7 @@ async def on_message(message):
         try:
             guess = await client.wait_for('message', check=is_correct, timeout=10.0)
         except asyncio.TimeoutError:
+            await message.author.timeout(timeout_delta, reason="too stupid")
             return await message.channel.send(f'Sorry, you took too long it was {answer}.')
         
         if random.randint(1,10) == 5:
