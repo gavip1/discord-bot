@@ -1,1 +1,1 @@
-discord bot that asks for what flag is x 
+simple discord bot to play guessing the flag game
